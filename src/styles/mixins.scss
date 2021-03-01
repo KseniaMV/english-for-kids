@@ -1,0 +1,21 @@
+@mixin flexibleRow(){ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin flexibleColumn(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin displayGrid(){
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px 40px;
+    justify-items: center;
+}

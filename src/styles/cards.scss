@@ -1,0 +1,120 @@
+.card-conteiner{
+    width: 245px;
+    height: 225px;
+    position: relative;
+    transition: 2s;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include flexibleColumn();
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    transform-style: preserve-3d; 
+    transition: 1.5s;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 4px 8px rgba(0,0,0,0.22);
+    z-index: 10;
+}
+
+.card-back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include flexibleColumn();
+    background-size: 200px 180px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    transition: 1.5s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 4px 8px rgba(0,0,0,0.22);
+    z-index: 10;
+}
+
+.card__title, 
+.card__title-translate{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: $main-font;
+    font-size: 20%;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: $color-green;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    &::first-letter{
+        text-transform: uppercase;
+    }
+}
+
+.card--play-mode{
+    background-size: 90%;
+    background-position: center;
+    border: 3px soild $color-burgundy;
+}
+
+.card--train-mode{
+    background-size: 200px 180px;
+    background-position: top center;
+}
+
+.card--play-mode h3,
+.card--play-mode button{
+    display: none;
+}
+
+.card__button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    z-index: 20;
+}
+
+.button-turn{
+    top: calc(100% - 40px);
+    right: 10px;
+    background-color: transparent;
+    background-image: url(../assets/images/icons/turn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.button-sound{
+    top: calc(100% - 40px);
+    left: 10px;
+    background-color: transparent;
+    background-image: url(../assets/images/icons/sound.png);
+    background-position: center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,.3));
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+

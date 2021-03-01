@@ -1,0 +1,24 @@
+.game__conteiner{
+    @include displayGrid();
+    width: 90%;
+    height: auto;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+}
+
+.game__header{
+    @include flexibleRow();
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+    background-color: $color-dark-blue;
+    z-index: 18;
+}
+
+
+

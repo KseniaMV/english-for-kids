@@ -1,2 +1,2 @@
-# english-for-kids
-A game for children that will help in learning words in English.
+# my-webpack-config
+basic webpack config with ts

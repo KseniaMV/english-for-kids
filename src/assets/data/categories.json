@@ -1,0 +1,34 @@
+{
+    "events":{
+        "title": "holidays and events",
+        "image": "events.png"
+    },
+    "food":{
+        "title": "foods",
+        "image": "foods.png"
+    },
+    "clothes":{
+        "title": "clothes",
+        "image": "clothes.png"
+    },
+    "weather":{
+        "title": "weather and seasons",
+        "image": "weather.png"
+    },
+    "activities":{
+        "title": "sport and hobby",
+        "image": "activities.png"
+    },
+    "city":{
+        "title": "city",
+        "image": "city.png"
+    },
+    "home":{
+        "title": "home",
+        "image": "home.png"
+    },
+    "school":{
+        "title": "school",
+        "image": "school.png"
+    }
+}

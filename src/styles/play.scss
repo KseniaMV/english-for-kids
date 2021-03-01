@@ -1,0 +1,146 @@
+.game-filter{
+    width: 100vw;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+    z-index: 100;
+}
+
+.button-play,
+.playAgain-button{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    font-family: $title-font;
+    font-size: 35%;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow:-1px -1px #000, 0 1px 0 #444;
+    background-image: $text-gradient;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,.2));
+    transition: 0.8s;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.button-play{
+    position: absolute;
+    top: calc(50vh - 30px);
+    left: calc(50vw - 150px);
+}
+
+.playAgain-button{
+    margin: auto;
+    margin-top: 70px;
+}
+
+.button-repeat{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: calc(100vh - 100px);
+    right: 25px;
+    background-image: url(../assets/images/icons/repeat-sound.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:25px;
+    border: 5px solid $color-green;
+    border-radius: 70px;
+    text-transform: uppercase;
+    text-shadow:-1px -1px #000, 0 1px 0 #444;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,.2));
+    transition: 0.8s;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.stars-conteiner{
+    width: 40px;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    @include flexibleColumn();
+}
+
+.star,
+.emptyStar{
+    width: 35px;
+    height: 35px;
+    margin: 5px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.star{
+    background-image: url(../assets/images/icons/star.png);
+}
+
+.emptyStar{
+    background-image: url(../assets/images/icons/wrong.png);
+}
+
+.win-page, 
+.tryAgain-page{
+    width: 70vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    @include flexibleColumn();
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 70vh;
+}
+
+.win-page{
+    background-image: url(../assets/images/backgrounds/win-game.png);
+}
+
+.tryAgain-page{
+    background-image: url(../assets/images/backgrounds/try-again.png);
+}
+
+.card--not-active{
+    opacity: 0.5;
+}
+
+.conteiner--not-active{
+    &:hover{
+        transform: none;
+    }
+}
+
+.final-message{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0;
+    font-family: $title-font;
+    font-size: 35%;
+    color: $color-dark-blue;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 500px){
+    .win-page, 
+    .tryAgain-page{
+        width: 100vw;
+        left: 0;
+        background-position: top center;
+        background-size: contain;
+    }
+    .playAgain-button{
+        width: 250px;
+    }
+}

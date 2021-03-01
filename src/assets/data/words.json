@@ -1,0 +1,465 @@
+{
+    "activities":{
+        "basketball":{
+            "ru": "баскетбол",
+            "sound": "activities/basketball.mp3",
+            "image": "basketball.png" 
+        },
+        "football":{
+            "ru": "футбол",
+            "sound": "activities/football.mp3",
+            "image": "football.png" 
+        },
+
+        "swimming":{
+            "ru": "плавание",
+            "sound": "activities/swimming.mp3",
+            "image": "swimming.png"        
+        },
+
+        "reading":{
+            "ru": "чтение",
+            "sound": "activities/reading.mp3",
+            "image": "reading.png" 
+        },
+        "tennis":{
+            "ru": "теннис",
+            "sound": "activities/tennis.mp3",
+            "image": "tennis.png" 
+        },
+
+        "music":{
+            "ru": "музыка",
+            "sound": "activities/music.mp3",
+            "image": "music.png" 
+        },
+
+        "singing":{
+            "ru": "пение",
+            "sound": "activities/singing.mp3",
+            "image": "singing.png" 
+        },
+
+        "drawing":{
+            "ru": "рисование",
+            "sound": "activities/drawing.mp3",
+            "image": "drawing.png" 
+        },
+
+        "ballet":{
+            "ru": "балет",
+            "sound": "activities/ballet.mp3",
+            "image": "ballet.png" 
+        },
+
+        "dance":{
+            "ru": "танцы",
+            "sound": "activities/dance.mp3",
+            "image": "dance.png" 
+        },
+        "cheerleading":{
+            "ru": "чирлидинг",
+            "sound": "activities/cheerleading.mp3",
+            "image": "cheerleading.png"
+        }
+    },
+    "city":{
+        "building":{
+            "ru": "здание",
+            "sound": "city/building.mp3",
+            "image": "building.png" 
+        },
+        "bus":{
+            "ru": "автобус",
+            "sound": "city/bus.mp3",
+            "image": "bus.png" 
+        },
+        "bus station":{
+            "ru": "остановка",
+            "sound": "city/busstation.mp3",
+            "image": "busstation.png" 
+        },
+        "car":{
+            "ru": "машина",
+            "sound": "city/car.mp3",
+            "image": "car.png" 
+        },
+        "crosswalk":{
+            "ru": "пешеходный переход",
+            "sound": "city/crosswalk.mp3",
+            "image": "crosswalk.png" 
+        },
+        "museum":{
+            "ru": "музей",
+            "sound": "city/museum.mp3",
+            "image": "museum.png" 
+        },
+        "restaurant":{
+            "ru": "ресторан",
+            "sound": "city/restaurant.mp3",
+            "image": "restaurant.png" 
+        },
+        "shop":{
+            "ru": "магазин",
+            "sound": "city/shop.mp3",
+            "image": "shop.png" 
+        },
+        "street":{
+            "ru": "улица",
+            "sound": "city/street.mp3",
+            "image": "street.png" 
+        },
+        "subway":{
+            "ru": "метро",
+            "sound": "city/subway.mp3",
+            "image": "subway.png" 
+        },
+        "taxi":{
+            "ru": "такси",
+            "sound": "city/taxi.mp3",
+            "image": "taxi.png" 
+        },
+        "trolleybus":{
+            "ru": "троллейбус",
+            "sound": "city/trolleybus.mp3",
+            "image": "trolleycar.png" 
+        }
+    },
+    "weather":{
+        "autumn":{
+            "ru": "осень",
+            "sound": "weather/autumn.mp3",
+            "image": "autumn.png" 
+        },
+        "cloud":{
+            "ru": "облако",
+            "sound": "weather/cloud.mp3",
+            "image": "clouds.png" 
+        },
+        "puddle":{
+            "ru": "лужа",
+            "sound": "weather/puddle.mp3",
+            "image": "puddle.png" 
+        },
+        "rain":{
+            "ru": "дождь",
+            "sound":"weather/rain.mp3",
+            "image": "rain.png" 
+        },
+        "rainbow":{
+            "ru": "радуга",
+            "sound": "weather/rainbow.mp3",
+            "image": "rainbow.png" 
+        },
+        "snow":{
+            "ru": "снег",
+            "sound": "weather/snow.mp3",
+            "image": "snow.png" 
+        },
+        "snowman":{
+            "ru": "снеговик",
+            "sound": "weather/snowman.ogg",
+            "image": "snowman.png" 
+        },
+        "snowstorm":{
+            "ru": "вьюга",
+            "sound": "weather/snowstorm.mp3",
+            "image": "snowstorm.png" 
+        },
+        "spring":{
+            "ru": "весна",
+            "sound": "weather/spring.mp3",
+            "image": "spring.png" 
+        },
+        "summer":{
+            "ru": "лето",
+            "sound": "weather/summer.mp3",
+            "image": "summer.png" 
+        },
+        "sun":{
+            "ru": "солнце",
+            "sound": "weather/sun.mp3",
+            "image": "sun.png" 
+        },
+        "winter":{
+            "ru": "зима",
+            "sound":"weather/winter.mp3",
+            "image": "winter.png" 
+        }
+    },
+    "clothes":{
+        "coat":{
+            "ru": "пальто",
+            "sound": "clothes/coat.mp3",
+            "image": "coat.png" 
+        },
+        "sweater":{
+            "ru": "свитер",
+            "sound": "clothes/sweater.mp3",
+            "image": "sweater.png" 
+        },
+        "sneaker":{
+            "ru": "кроссовок",
+            "sound": "clothes/sneaker.mp3",
+            "image": "sneakers.png" 
+        },
+        "boot":{
+            "ru": "сапог",
+            "sound": "clothes/boot.mp3",
+            "image": "boots.png" 
+        },
+        "scarf":{
+            "ru": "шарф",
+            "sound": "clothes/scarf.mp3",
+            "image": "scarf.png" 
+        },
+        "glove":{
+            "ru": "перчатка",
+            "sound": "clothes/gloves.mp3",
+            "image": "gloves.png" 
+        },
+        "pants":{
+            "ru": "штаны",
+            "sound": "clothes/pants.mp3",
+            "image": "pants.png" 
+        },
+        "shorts":{
+            "ru": "шорты",
+            "sound": "clothes/shorts.mp3",
+            "image": "shorts.png" 
+        },
+        "hat":{
+            "ru": "шапка",
+            "sound": "clothes/hat.mp3",
+            "image": "hat.png" 
+        },
+        "shoes":{
+            "ru": "туфля",
+            "sound": "clothes/shoes.mp3",
+            "image": "shoes.png" 
+        }
+    },
+    "food":{
+        "pancake":{
+            "ru": "блинчик",
+            "sound": "foods/pancakes.mp3",
+            "image": "pancakes.png" 
+        },
+        "cake":{
+            "ru": "торт",
+            "sound": "foods/cake.mp3",
+            "image": "cake.png" 
+        },
+        "berry":{
+            "ru": "ягода",
+            "sound": "foods/berry.mp3",
+            "image": "berries.png" 
+        },
+        "fruit":{
+            "ru": "фрукт",
+            "sound": "foods/fruit.mp3",
+            "image": "fruit.png" 
+        },
+        "milk":{
+            "ru": "молоко",
+            "sound": "foods/milk.mp3",
+            "image": "milk.png" 
+        },
+        "pie":{
+            "ru": "пирог",
+            "sound": "foods/pie.mp3",
+            "image": "pie.png" 
+        },
+        "salad":{
+            "ru": "салат",
+            "sound": "foods/salad.mp3",
+            "image": "salad.png" 
+        },
+        "soup":{
+            "ru": "суп",
+            "sound": "foods/soup.mp3",
+            "image": "soup.png" 
+        },
+        "vegetable":{
+            "ru": "овощ",
+            "sound": "foods/vegetables.mp3",
+            "image": "vegetables.png" 
+        },
+        "bread":{
+            "ru": "хлеб",
+            "sound": "foods/bread.mp3",
+            "image": "bread.png" 
+        }
+    },
+    "home":{
+        "bookcase":{
+            "ru": "книжный шкаф",
+            "sound": "home/bookcase.mp3",
+            "image": "bookcase.png" 
+        },
+        "bed":{
+            "ru": "кровать",
+            "sound": "home/bed.mp3",
+            "image": "bed.png" 
+        },
+        "table":{
+            "ru": "стол",
+            "sound": "home/table.mp3",
+            "image": "table.png" 
+        },
+        "toilet":{
+            "ru": "унитаз",
+            "sound": "home/toilet.mp3",
+            "image": "toilet.png" 
+        },
+        "bedroom":{
+            "ru": "спальня",
+            "sound": "home/bedroom.mp3",
+            "image": "bedroom.png" 
+        },
+        "kitchen":{
+            "ru": "кухня",
+            "sound": "home/kitchen.mp3",
+            "image": "kitchen.png" 
+        },
+        "tv":{
+            "ru": "телевизор",
+            "sound": "home/tv.mp3",
+            "image": "tv.png" 
+        },
+        "bathroom":{
+            "ru": "ванная",
+            "sound": "home/bathroom.mp3",
+            "image": "bathroom.png" 
+        },
+        "sofa":{
+            "ru": "диван",
+            "sound": "home/sofa.mp3",
+            "image": "sofa.png" 
+        },
+        "fridge":{
+            "ru": "холодильник",
+            "sound": "home/fridge.mp3",
+            "image": "fridge.png" 
+        },
+        "wardrobe":{
+            "ru": "платяной шкаф",
+            "sound": "home/wardrobe.mp3",
+            "image": "wardrobe.png" 
+        },
+        "armchair":{
+            "ru": "кресло",
+            "sound": "home/armchair.mp3",
+            "image": "armchair.png" 
+        },
+        "bath":{
+            "ru": "ванна",
+            "sound": "home/bath.mp3",
+            "image": "bath.png" 
+        },
+        "chair":{
+            "ru": "стул",
+            "sound": "home/chair.mp3",
+            "image": "chair.png" 
+        }
+    },
+    "events":{
+        "Valentine's Day":{
+            "ru": "День святого Валентина",
+            "sound": "events/valentineDay.mp3",
+            "image": "ValentineDay.png" 
+        },
+        "birthday":{
+            "ru": "день рождения",
+            "sound": "events/birthday.mp3",
+            "image": "birthday.png" 
+        },
+        "camping":{
+            "ru": "отдых на природе",
+            "sound": "events/camping.mp3",
+            "image": "camping.png" 
+        },
+        "New Year":{
+            "ru": "новый год",
+            "sound": "events/newYear.mp3",
+            "image": "NewYear.png" 
+        },
+        "mothers Day":{
+            "ru": "день матери",
+            "sound": "events/mothersDay.mp3",
+            "image": "mothersDay.png" 
+        },
+        "vacation":{
+            "ru": "отпуск",
+            "sound": "events/vacation.mp3",
+            "image": "vacation.png" 
+        },
+        "Easter":{
+            "ru": "пасха",
+            "sound": "events/easter.mp3",
+            "image": "easter.png" 
+        },
+        "halloween":{
+            "ru": "хэллоувин",
+            "sound": "events/halloween.mp3",
+            "image": "halloween.png" 
+        },
+        "christmas":{
+            "ru": "рождество",
+            "sound": "events/christmas.mp3",
+            "image": "christmas.png" 
+        }
+    },
+    "school":{
+        "backpack":{
+            "ru": "рюкзак",
+            "sound": "school/backpack.mp3",
+            "image": "backpack.png" 
+        },
+        "notebook":{
+            "ru": "тетрадь",
+            "sound": "school/notebook.mp3",
+            "image": "notebook.png" 
+        },
+        "pen":{
+            "ru": "ручка",
+            "sound": "school/pen.mp3",
+            "image": "pen.png" 
+        },
+        "teacher":{
+            "ru": "учитель",
+            "sound": "school/teacher.mp3",
+            "image": "teacher.png" 
+        },
+        "student":{
+            "ru": "ученик",
+            "sound": "school/student.mp3",
+            "image": "student.png" 
+        },
+        "pencil":{
+            "ru": "карандаш",
+            "sound": "school/pencil.mp3",
+            "image": "pencil.png" 
+        },
+        "school":{
+            "ru": "школа",
+            "sound": "school/school.mp3",
+            "image": "school.png" 
+        },
+        "desk":{
+            "ru": "парта",
+            "sound": "school/desk.mp3",
+            "image": "desk.png" 
+        },
+        "class":{
+            "ru": "урок",
+            "sound": "school/class.mp3",
+            "image": "class.png" 
+        },
+        "textbook":{
+            "ru": "учебник",
+            "sound": "school/textbook.mp3",
+            "image": "textbook.png" 
+        }
+    } 
+}
