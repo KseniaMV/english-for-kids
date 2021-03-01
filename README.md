@@ -1,5 +1,5 @@
 # english-for-kids
-A game for children that will helps in learning words in English.
+A game for children that will help in learning words in English.
 
 ![main image](src/assets/images/backgrounds/gitimage.png)
 
